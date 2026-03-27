@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ],
+  "type": "aether:repairing",
+  "group": "altar_ring_repair",
+  "ingredient": {
+    "item": "aether:zanite_ring"
+  },
+  "repairTime": 500
+}

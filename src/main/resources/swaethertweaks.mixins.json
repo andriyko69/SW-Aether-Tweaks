@@ -1,0 +1,41 @@
+{
+  "required": true,
+  "package": "io.github.andriyko69.swaethertweaks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "accessor.AbstractContainerMenuAccessor",
+    "common.AetherAccessoriesMenuMixin",
+    "common.AetherAccessorySlotsMixin",
+    "common.AetherTimeAttachmentMixin",
+    "common.AccessoryItemMixin",
+    "common.CapeItemMixin",
+    "common.EquipmentUtilMixin",
+    "common.EntityHooksMixin",
+    "common.GoldenFeatherItemMixin",
+    "common.GlovesItemMixin",
+    "common.IcePendantItemMixin",
+    "common.IceRingItemMixin",
+    "common.IronBubbleItemMixin",
+    "common.OpenInventoryPacketMixin",
+    "common.PendantItemMixin",
+    "common.RecipeManagerMixin",
+    "common.RegenerationStoneItemMixin",
+    "common.ShieldOfRepulsionItemMixin",
+    "common.SunAltarBlockMixin",
+    "common.SunAltarUpdatePacketMixin"
+  ],
+  "client": [
+    "accessor.ScreenAccessor",
+    "accessor.TooltipAccessor",
+    "client.AetherAccessoriesScreenMixin",
+    "client.CreativeModeInventoryScreenMixin",
+    "client.GuiHooksMixin",
+    "client.MinecraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
